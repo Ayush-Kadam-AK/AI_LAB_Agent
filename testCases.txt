@@ -1,0 +1,19 @@
+Test Case 1: Sauce Demo Login
+URL: https://www.saucedemo.com/
+Requirement: Enter "standard_user" as the username and "secret_sauce" as the password, then click the login button.
+Expected Output: Products
+
+Test Case 2: DuckDuckGo Search
+URL: https://duckduckgo.com/
+Requirement: Type "artificial intelligence" into the search box and press Enter.
+Expected Output: artificial intelligence
+
+Test Case 3: W3Schools Dropdown
+URL: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_select
+Requirement: Choose "Volvo" from the car selection dropdown and click the submit button.
+Expected Output: You selected: Volvo
+
+Test Case 4: Wikipedia Search
+URL: https://en.wikipedia.org/wiki/Main_Page
+Requirement: Type "Python (programming language)" into the search field and click the search button.
+Expected Output: Python (programming language)
