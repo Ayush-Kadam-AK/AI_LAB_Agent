@@ -17,3 +17,94 @@ Test Case 4: Wikipedia Search
 URL: https://en.wikipedia.org/wiki/Main_Page
 Requirement: Type "Python (programming language)" into the search field and click the search button.
 Expected Output: Python (programming language)
+
+Test Cases
+1. Google Search
+Website URL: https://www.google.com/
+Requirement: Type "Machine Learning" into the search box and press Enter.
+Expected Output: Search results related to "Machine Learning".
+Purpose: Tests search input and Enter keypress on a simple, widely-used search engine with a clear results page.
+
+2. Bing Search with Button Click
+Website URL: https://www.bing.com/
+Requirement: Type "Neural Networks" into the search field and click the search button.
+Expected Output: Search results containing information about neural networks.
+Purpose: Verifies button click action and validation of search results on an alternative search engine.
+
+3. YouTube Search
+Website URL: https://www.youtube.com/
+Requirement: Type "AI Tutorials" into the search bar and click the search icon.
+Expected Output: Video thumbnails related to AI tutorials.
+Purpose: Tests locating a search icon (not a standard button) and validating dynamic video content.
+
+4. Amazon Product Search
+Website URL: https://www.amazon.com/
+Requirement: Type "Laptop" into the search box and click the search button.
+Expected Output: A list of laptop products with prices and descriptions.
+Purpose: Checks handling of e-commerce search fields and validation of product listings.
+
+5. GitHub Login Attempt
+Website URL: https://github.com/login
+Requirement: Enter "testuser" as the username and "testpass" as the password, then click the login button.
+Expected Output: An error message or the dashboard (depending on credentials, expect an error here).
+Purpose: Tests form input and submission on a login page with potential error handling.
+
+6. Reddit Search
+Website URL: https://www.reddit.com/
+Requirement: Type "Programming" into the search bar and press Enter.
+Expected Output: Posts or communities related to programming.
+Purpose: Verifies search functionality on a social media platform with dynamic content.
+
+7. Twitter Navigation
+Website URL: https://twitter.com/explore (assuming no login required for public explore page)
+Requirement: Click the "Trends" tab.
+Expected Output: A list of trending topics or hashtags.
+Purpose: Tests navigation by clicking a tab without input fields.
+
+8. eBay Category Selection
+Website URL: https://www.ebay.com/
+Requirement: Select "Electronics" from the category dropdown and click the search button.
+Expected Output: Listings of electronic products.
+Purpose: Tests dropdown selection and subsequent button click on an e-commerce site.
+
+9. Stack Overflow Question Search
+Website URL: https://stackoverflow.com/
+Requirement: Type "Python error handling" into the search box and press Enter.
+Expected Output: Questions or answers related to Python error handling.
+Purpose: Verifies search on a Q&A site with a focus on technical content validation.
+
+10. BBC News Search
+Website URL: https://www.bbc.com/news
+Requirement: Type "Climate Change" into the search field and click the search button.
+Expected Output: News articles about climate change.
+Purpose: Tests search functionality on a news website with article-based results.
+
+11. LinkedIn Login Page
+Website URL: https://www.linkedin.com/login
+Requirement: Enter "example@email.com" into the email field and "password123" into the password field, then click the sign-in button.
+Expected Output: An error message or login page reload (invalid credentials expected).
+Purpose: Tests multi-field form submission on a professional networking site.
+
+12. IMDb Movie Search
+Website URL: https://www.imdb.com/
+Requirement: Type "Inception" into the search bar and press Enter.
+Expected Output: Information about the movie "Inception" (e.g., cast, rating).
+Purpose: Verifies search and validation on a media database site.
+
+13. Craigslist Location Selection
+Website URL: https://www.craigslist.org/
+Requirement: Click the "New York" link under locations.
+Expected Output: Craigslist listings for New York.
+Purpose: Tests navigation via link clicks and validation of location-specific content.
+
+14. Weather Forecast Check
+Website URL: https://www.weather.com/
+Requirement: Type "New York, NY" into the search box and press Enter.
+Expected Output: Weather forecast for New York, NY.
+Purpose: Tests search on a weather site with dynamic forecast data.
+
+15. Medium Article Search
+Website URL: https://medium.com/
+Requirement: Type "Data Science" into the search bar and click the search button.
+Expected Output: Articles related to data science.
+Purpose: Verifies search functionality on a blogging platform with article-based results.
