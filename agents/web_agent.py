@@ -3,8 +3,8 @@ from utils.llm_utils import LLMUtils
 
 class WebAutomationAgent:
     def __init__(self):
-        self.browser = BrowserUtils()
         self.llm = LLMUtils()
+        self.browser = BrowserUtils(llm_utils=self.llm)
 
     def run(self, url):
         if not self.browser.open_website(url):
@@ -28,9 +28,7 @@ class WebAutomationAgent:
 
         action_result = self.browser.execute_actions(requirement)
         if action_result:
-            # self.browser.cleanup()
             return action_result
 
         result = self.browser.validate_result(expected_output, self.llm)
-        # self.browser.cleanup()
         return result
